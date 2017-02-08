@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #EEE;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -21,6 +22,14 @@ h1:hover {
 p {
   padding: 2px 0 0 0;
   line-height: 34px; /* we set the line-height here so the button arrows are inline with the inner text */
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: white;
 }
 
 /* --main div with material design config */
@@ -140,9 +149,9 @@ div#demoFooter {
 
 div#demoFooter:hover {
   background-color: tomato;
-  transform: rotate(-20deg);
+  transform: rotate(-2deg);
   transform-origin: right bottom 0;
-  right: 40;
+  right: 20;
   bottom: 300;
   z-index: 10;
   padding: 20px;
